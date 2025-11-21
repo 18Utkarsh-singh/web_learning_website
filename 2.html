@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUp Learning — Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f3f6fc;
+        }
+
+        .navbar { 
+            background: #0b63ce;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .courses {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .course-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding-top: 20px;
+        }
+
+        .course-card {
+            width: 280px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #0b63ce;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <h1>SkillUp Learning</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html" class="active">Courses</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="courses">
+        <h2>Explore Our Courses</h2>
+
+        <div class="course-container">
+            
+            <!-- HTML COURSE CARD -->
+            <div class="course-card">
+                <h3>Frontend Development with HTML</h3>
+                <p>Learn the structure of web pages with semantic HTML.</p>
+                <a href="html-notes.html" class="btn">Start Course</a>
+            </div>
+
+            <!-- CSS COURSE CARD -->
+            <div class="course-card">
+                <h3>Styling Websites with CSS</h3>
+                <p>Learn Flexbox, Grid, animations and responsive design.</p>
+                <a href="css-notes.html" class="btn">Start Course</a>
+            </div>
+
+            <!-- JS COURSE CARD -->
+            <div class="course-card">
+                <h3>Dynamic Web Programming with JavaScript</h3>
+                <p>Learn DOM manipulation, events, and modern JS.</p>
+                <a href="js-notes.html" class="btn">Start Course</a>
+            </div>
+
+            <!-- CLASS 11 CARD -->
+            <div class="course-card">
+                <h3>Class 11 — Full Notes</h3>
+                <p>Physics • Chemistry • Maths • English • Hindi — NCERT based notes.</p>
+                <a href="class11-notes.html" class="btn">Open Notes</a>
+            </div>
+
+            <!-- CLASS 12 CARD -->
+            <div class="course-card">
+                <h3>Class 12 — Full Notes</h3>
+                <p>Complete syllabus notes, summary & formulas for all subjects.</p>
+                <a href="class12-notes.html" class="btn">Open Notes</a>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
